@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-stretch: condensed;
+    letter-spacing: -0.05em;
+}
+
+main{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+main h1{
+    width: 1240px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main .rule li{
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: left;
+    text-indent: -20px;
+    list-style: none;
+    margin: 0 20px 0 40px;
+}
+main .rule a{
+    color: inherit;
+    text-decoration: none;
+}
+
+main .map{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+main .map img{
+    width: 500px;
+    border-radius: 30px;
+}
+main .map .map_p{
+    width: 700px;
+    font-size: 18px;
+    margin: 30px 0;
+}
+main .map .map_p p{
+    margin-bottom: 10px;
+}
+
+main .introduction .guide{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+main .introduction img{
+    width: 400px;
+    border-radius: 30px;
+    border: 5px solid #ccc;
+}
+main .introduction p{
+    width: 800px;
+    font-size: 18px;
+    line-height: 1.6;
+    text-indent: 20px;
+    text-align: justify;
+    margin: 20px 0;
+}
+main .introduction .guide .h2_left{
+    color: green;
+    margin-top: 30px;
+    text-align: left;
+}
+main .introduction .guide .h2_right{
+    color: green;
+    margin-top: 30px;
+    text-align: right;
+}
